@@ -34,7 +34,7 @@ Current themes include:
 ## 📂 Repository Structure
 
 This organization hosts multiple smaller project repos, typically structured as:
-
+```
 project-name/
 ├─ envs/ # Isaac Lab environments
 ├─ training/ # RL scripts & policy optimization
@@ -42,32 +42,12 @@ project-name/
 ├─ scripts/ # Experiment automation
 ├─ assets/ # Simulation meshes/textures
 └─ README.md # Usage + documentation
-
-yaml
-Copy code
+```
 
 Each repository is self-contained to ensure **reproducibility and clarity** over time.
 
 ---
 
-## 📦 Naming Convention
-
-To maintain consistency, projects are named following:
-
-isaac-<robot>-<task>
-isaac-<topic>-experiment
-rl-<method>-<robot>
-
-yaml
-Copy code
-
-Examples:
-
-- `isaac-mobile-navigation`
-- `rl-lidar-avoidance`
-- `isaac-differential-drive-lab`
-
----
 
 ## 🧭 Goals & Philosophy
 
